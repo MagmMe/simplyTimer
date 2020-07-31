@@ -29,9 +29,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func StopBtn(_ sender: UIButton) {
+        myTimer.invalidate()
     }
     
     @IBAction func resetBtn(_ sender: UIButton) {
+        myTimer.invalidate()
+        timerDisplayed = 0
+        timerLabel.text = String(timerDisplayed)
     }
     
     
