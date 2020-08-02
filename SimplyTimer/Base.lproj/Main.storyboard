@@ -51,6 +51,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="startBtnOutlet" destination="ttg-W3-pTU" id="lbS-1v-MuJ"/>
                         <outlet property="timerLabel" destination="7DI-XP-kZM" id="aMF-zj-hzs"/>
                     </connections>
                 </viewController>
