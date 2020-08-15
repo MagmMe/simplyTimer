@@ -24,7 +24,6 @@ class ViewController: UIViewController {
     @IBAction func startBtn(_ sender: UIButton) {
         
         myTimer.invalidate()
-        
         myTimer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
         
     
